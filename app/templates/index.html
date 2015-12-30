@@ -1,0 +1,17 @@
+{% extends "esqueleto.html" %}
+{% block conteudo1 %}
+	<blink><p align="center"> oi {{ user.nome }},seu lindo @.@!</p></blink>
+	{% if user.idade %}
+		<p align="center"> voce  tem {{ user.idade }}</p>
+	{%else%}	
+		<p align="center">nem sei</p>
+	{% endif %}
+{% endblock %} 
+{% block conteudo2 %}
+	{% if user.var %}
+		<p align="center"> a variavel existe e tem valor {{ user.var }}</p>
+	{%else%}	
+		<p align="center">nem tinha var</p>
+	{% endif %}
+{% endblock %} 
+

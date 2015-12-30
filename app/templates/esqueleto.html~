@@ -1,0 +1,10 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>aprendendo flask com o mosao</title>
+</head>
+<body>
+{%block conteudo1 %}
+{% endblock %}
+</body>
+</html>
